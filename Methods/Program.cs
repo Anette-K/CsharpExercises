@@ -1,7 +1,8 @@
 ﻿/*
  * First "quick n dirty " version of exercise 1. 
  * A program that reads 2 integers form the console and prints the largest of them using  your own method GetMax()
- * TODO: Exception handling, atleast on user input. 
+ * TODO: Exception handling, atleast on user input.
+ * 
  */
 using System;
 
