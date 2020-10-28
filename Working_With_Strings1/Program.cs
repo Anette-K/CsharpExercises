@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Working_With_Strings2
+namespace Working_With_Strings1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Placeholder for exercise 2b");
+            Console.WriteLine("Hello World!");
         }
     }
 }
