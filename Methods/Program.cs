@@ -2,6 +2,7 @@
  * First "quick n dirty " version of exercise 1. 
  * A program that reads 2 integers form the console and prints the largest of them using  your own method GetMax()
  * TODO: Exception handling, atleast on user input.
+ * Can't handle 2 numbers that are the same.
  * 
  */
 using System;
@@ -11,14 +12,9 @@ namespace Methods
     class Program
     {
         static int GetMax(int firstNumber, int secondNumber)
-        { if (firstNumber > secondNumber)
-            {
-                return firstNumber;
-            }
-            else
-            {
-                return secondNumber;
-            }
+        {
+            if (firstNumber > secondNumber) return firstNumber;
+            else return secondNumber; 
         }
         static void Main(string[] args)
         {
